@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=140&section=header&text=Muhammad%20Ans&fontSize=42&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=IEEE%20CIS%20President%20%7C%20GDGoC%20Media%20Lead%20%7C%20AI%2FML%20Engineer&descAlignY=62&descSize=15&descAlign=50" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=140&section=header&text=Muhammad%20Ans&fontSize=42&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=IEEE%20CIS%20President%20%7C%20GDGoC%20Media%20Lead&descAlignY=62&descSize=15&descAlign=50" />
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00C9FF&center=true&vCenter=true&width=700&lines=AI%2FML+Engineer+%F0%9F%A4%96;IEEE+CIS+President+%E2%9A%A1;GDGoC+Media+Lead+%F0%9F%93%A2;Python+%26+C%2B%2B+Developer+%F0%9F%90%8D;Open+to+AI%2FML+Internships+%E2%9C%85" alt="Typing SVG" />
 </p>
