@@ -185,18 +185,37 @@ open_to:
 
 ## 📊 GitHub Stats
 
-<div align="center">
+<p align="center">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=techwithans&show_icons=true&theme=react&hide_border=true&bg_color=0d1117&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=techwithans&layout=compact&theme=react&hide_border=true&bg_color=0d1117&langs_count=6" />
+</p>
 
-  <img src="https://github-readme-stats.vercel.app/api?username=techwithans&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=a0aec0" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=techwithans&theme=tokyonight&hide_border=true&background=0d1117&ring=00d4ff&fire=00d4ff&currStreakLabel=00d4ff" width="49%" />
+<p align="center">
+  <img src="https://github-trophies.vercel.app/?username=techwithans&theme=algolia&no-frame=true&no-bg=true&margin-w=4&column=7" />
+</p>
 
-</div>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=techwithans&theme=react&hide_border=true&background=0d1117" />
+</p>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=techwithans&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=a0aec0" width="40%" />
-</div>
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=techwithans&theme=react-dark&bg_color=0d1117&color=00c9ff&line=00c9ff&point=ffffff&area=true&hide_border=true" />
 
----
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=techwithans&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=techwithans&theme=github_dark" />
+</p>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=techwithans&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=techwithans&theme=github_dark&utcOffset=5" />
+</p>
+
+
+
+
+
+
+
+
 
 ## 📈 Contribution Graph
 
