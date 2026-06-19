@@ -16,10 +16,19 @@
     <img src="https://img.shields.io/badge/Facebook-Follow-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
   </a>
   &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=techwithans&style=for-the-badge&color=00d4ff&label=PROFILE+VIEWS" />
+   <a href="https://instagram.com/techwithans_">
+    <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0d1117" />
+  </a>
 
 </div>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=techwithans&label=Profile+Views&color=00c9ff&style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/github/followers/techwithans?label=Followers&style=for-the-badge&color=00c9ff&labelColor=0d1117" />
+  <a href="https://github.com/techwithans">
+    <img src="https://img.shields.io/badge/GitHub-Pro-black?style=for-the-badge&logo=github" />
+  </a>
+</p>
 <br/>
 
 ---
