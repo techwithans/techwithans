@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled HTML Showcase</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: rgba(15, 23, 42, 0.95);
+      --text: #e2e8f0;
+      --accent: #7dd3fc;
+      --accent-soft: rgba(125, 211, 252, 0.15);
+      --shadow: 0 24px 80px rgba(15, 23, 42, 0.35);
+      --radius: 28px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: var(--text);
+      background: radial-gradient(circle at top left, rgba(125, 211, 252, 0.18), transparent 30%),
+                  radial-gradient(circle at bottom right, rgba(139, 92, 246, 0.16), transparent 30%),
+                  linear-gradient(180deg, #020617 0%, #111827 55%, #0f172a 100%);
+    }
+
+    .page {
+      display: grid;
+      min-height: 100vh;
+      place-items: center;
+      padding: 3rem 1.5rem;
+    }
+
+    .card {
+      width: min(1100px, 100%);
+      padding: 3rem;
+      border-radius: var(--radius);
+      background: var(--card);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(18px);
+      border: 1px solid rgba(148, 163, 184, 0.15);
+    }
+
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1.5rem;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: clamp(2.6rem, 4vw, 4rem);
+      letter-spacing: -0.06em;
+      line-height: 1.02;
+    }
+
+    .header p {
+      margin: 0.5rem 0 0;
+      color: #cbd5e1;
+      max-width: 38rem;
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    .highlight {
+      color: var(--accent);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .tile {
+      position: relative;
+      padding: 2rem;
+      border-radius: 24px;
+      background: rgba(15, 23, 42, 0.88);
+      border: 1px solid rgba(125, 211, 252, 0.12);
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.03);
+      transition: transform 0.35s ease, box-shadow 0.35s ease;
+    }
+
+    .tile:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 28px 48px rgba(125, 211, 252, 0.18);
+    }
+
+    .tile h2 {
+      margin: 0 0 0.75rem;
+      font-size: 1.25rem;
+      color: #f8fafc;
+    }
+
+    .tile p {
+      margin: 0;
+      color: #cbd5e1;
+      line-height: 1.75;
+    }
+
+    .cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-top: 2rem;
+      padding: 1rem 1.6rem;
+      border-radius: 999px;
+      border: 1px solid rgba(125, 211, 252, 0.25);
+      background: linear-gradient(135deg, rgba(125, 211, 252, 0.18), rgba(56, 189, 248, 0.13));
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 20px 40px rgba(125, 211, 252, 0.16);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.6rem 0.9rem;
+      border-radius: 999px;
+      background: rgba(125, 211, 252, 0.08);
+      color: #bfdbfe;
+      border: 1px solid rgba(125, 211, 252, 0.12);
+      font-size: 0.92rem;
+      backdrop-filter: blur(14px);
+    }
+
+    footer {
+      margin-top: 2.5rem;
+      color: #94a3b8;
+      font-size: 0.95rem;
+      text-align: center;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <div class="header">
+        <div>
+          <span class="badge">Designed for modern interfaces</span>
+          <h1>Beautiful HTML with <span class="highlight">polished styling</span></h1>
+          <p>Experience a sleek, responsive landing page built with clean typography, soft gradients, and glassmorphism-inspired cards. This layout is ready for content, projects, or a creative portfolio.</p>
+        </div>
+        <a href="#features" class="cta">Explore the design</a>
+      </div>
+
+      <div class="grid" id="features">
+        <article class="tile">
+          <h2>Elegant visual hierarchy</h2>
+          <p>Text scales naturally from headlines to body content, giving the page a polished and readable structure across devices.</p>
+        </article>
+        <article class="tile">
+          <h2>Soft motion effects</h2>
+          <p>Subtle hover animations and smooth shadows create depth without distracting from the page content.</p>
+        </article>
+        <article class="tile">
+          <h2>Responsive layout</h2>
+          <p>The design adapts seamlessly to mobile, tablet, and desktop screens using clean grid and spacing techniques.</p>
+        </article>
+        <article class="tile">
+          <h2>Frosted glass style</h2>
+          <p>Modern translucent cards blend with the dark theme, producing a premium interface feel that works beautifully for apps and landing pages.</p>
+        </article>
+      </div>
+
+      <footer>
+        Crafted with modern CSS for a strong first impression.
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
