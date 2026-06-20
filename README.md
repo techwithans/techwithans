@@ -225,7 +225,7 @@ looking_for:
 
 ---
 
-## 🤝 Get In Touch (Ans)
+## 🤝 Get In Touch
 
 <div align="center">
 
